@@ -1,18 +1,18 @@
 {
   "name": "skener/wp-films",
-  "description": "test",
-  "minimum-stability": "stable",
+  "type": "wordpress-plugin",
   "authors": [
     {
       "name": "skener"
     }
   ],
   "require": {
+    "composer/installers": "~1.0",
     "johnpbloch/wordpress": ">=5.4"
   },
   "autoload": {
     "psr-4": {
-      "Film\\": "inc/Classes"
+      "Film\\": "src/Classes"
     }
   }
 }
