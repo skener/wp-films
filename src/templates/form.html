@@ -1,0 +1,28 @@
+<div class="panel-content">
+    <table class="table table-responsive">
+        <tr class="form-table">
+            <td>
+                <label for="film_title">Title:</label>
+            </td>
+            <td>
+                <input id="film_title" name="film_title" placeholder="Title.." value="<?php echo esc_attr($title); ?>"/>
+            </td>
+        </tr>
+        <tr class="form-table">
+            <td>
+                <label for="film_price">Price:</label>
+            </td>
+            <td>
+                <input id="film_price" name="film_price" placeholder="Price.." value="<?php echo esc_attr($price); ?>"/>
+            </td>
+        </tr>
+        <tr class="form-table">
+            <td>
+                <label for="film_date">Realese Date:</label>
+            </td>
+            <td>
+                <input type="date" id="film_date" name="film_date" value="<?php echo esc_attr($date); ?>"/>
+            </td>
+        </tr>
+    </table>
+</div>

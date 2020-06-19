@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Film\\": "src/Classes"
+      "Films\\": "src/Classes"
     }
   }
 }
